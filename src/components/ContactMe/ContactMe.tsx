@@ -13,7 +13,7 @@ export const ContactMe = () => {
           />
           {/* <ContactMeCard
             iconUrl={`${process.env.PUBLIC_URL}assets/images/github-icon.png`}
-            text="https://github.com/Alab21ig"
+            text="https://github.com/otapro"
           /> */}
         </div>
         {/* <div>
