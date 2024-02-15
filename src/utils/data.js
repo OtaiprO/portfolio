@@ -52,7 +52,7 @@ export const PROJECTS = [
       "Projects and Skills are stored in utils > data.js",
     ],
     link: "",
-    github: "https://OtaiprO.github.io/portfolio",
+    github: "https://github.com/OtaiprO/Portfolio",
   },
 
   {
