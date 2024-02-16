@@ -77,7 +77,7 @@ export const PROJECTS = [
       "Uses (JavaScript - PIXI.js - HTML - CSS)",
       "Made for the Creative Coding Project",
       "The system has views which uses particles and are genereated using text",
-      "Fetches Jönköping and the used device local time to immpact the render, when rerenring you are guaranteed to get different art",
+      "Fetches Jönköping's temprature and the used device local time to immpact the render, when rerenring you are guaranteed to get different art",
       "The colour palette will depend on your time (Houre, Minute, Seconds) and Jönköping's temprature",
       "Use mouce crusor to move the particles around for more fun experience",
     ],
