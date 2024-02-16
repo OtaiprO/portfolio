@@ -11,18 +11,30 @@ export const ContactMe = () => {
             iconUrl={`${process.env.PUBLIC_URL}/assets/images/email-icon.png`}
             text="AbdulmalikAlotaibi333@gmail.com"
           />
-          {/* <ContactMeCard
-            iconUrl={`${process.env.PUBLIC_URL}assets/images/github-icon.png`}
-            text="https://github.com/otapro"
-          /> */}
         </div>
         {/* <div>
           <ContactForm />
         </div> */}
-        <ContactMeCard
-          iconUrl={`${process.env.PUBLIC_URL}/assets/images/github-icon.png`}
-          text="Github.com/OtaiprO"
-        />
+        <div>
+          <ContactMeCard
+            iconUrl={`${process.env.PUBLIC_URL}/assets/images/github-icon.png`}
+            text="Github.com/OtaiprO"
+          />
+        </div>
+      </div>
+      <div className="contact-content">
+        <div>
+          <ContactMeCard
+            iconUrl={`${process.env.PUBLIC_URL}/assets/images/linkedin-icon.png`}
+            text="www.linkedin.com/in/abdulmalek-alotaibi"
+          />
+        </div>
+        <div>
+          <ContactMeCard
+            iconUrl={`${process.env.PUBLIC_URL}/assets/images/phone-icon.png`}
+            text="+46 790 525 727"
+          />
+        </div>
       </div>
     </section>
   );
