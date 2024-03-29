@@ -42,6 +42,22 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: "JKPGCITY-TOUR (Full Stack Web App)",
+    details: [
+      "Utilized npm packages like express, cors, bcrypt, jsonwebtoken, pg (PostgreSQL client for Node.js), dotenv for environment variables, and puppeteer for web scraping.",
+      "Implemented a RESTful API with Express.js to handle server-side calls and facilitate communication between the backend and frontend.",
+      "Developed a server-side backend to manage CRUD (Create, Read, Update, Delete) operations. Admins have full access to edit stores, and guest users have limited access.",
+      "Implemented authentication for admins using JWT (JSON Web Tokens). Admins can create an account by providing a referral code (224466) for added security.",
+      "Dockerized the application for easy deployment and scalability, with a setup for Kubernetes (K8s) for local development and cloud deployment.",
+      "Deployed the backend on Google Cloud Platform (GCP) and connected it to a PostgreSQL instance on Google Cloud for data storage and management.",
+      "Frontend is deployed separately using Netlify and communicates with the backend via REST API requests identified by CORS headers.",
+      "Frontend dependencies include react, react-dom, react-router-dom for routing, bootstrap for styling, d3 for data visualization, and testing libraries such as @testing-library/jest-dom, @testing-library/react, and @testing-library/user-event.",
+      "Backend dependencies include bcrypt for password hashing, cors for enabling CORS (Cross-Origin Resource Sharing), dotenv for loading environment variables, express for building the web server, jsonwebtoken for JWT authentication, pg for PostgreSQL database interaction, and puppeteer for web scraping.",
+    ],
+    link: "https://jkpgcity-tour-mockup.netlify.app/",
+    github: "https://github.com/OtaiprO/jkpgcity-tour",
+  },
+  {
     title: "Current Portfolio Web App",
     details: [
       "Uses (React - TypeScript - CSS - Slick api)",
@@ -58,7 +74,7 @@ export const PROJECTS = [
   {
     title: "Shows Suggestions Service",
     details: [
-      "Utilized npm packages like express, express-handlebars, body-parser, sqlite3, express-session, and bcrypt. And REST api",
+      "Utilized npm packages like express, express-handlebars, body-parser, sqlite3, express-session, and bcrypt.",
       "Lo-fi GUI provides navigation and elements users can expect",
       "Admins have full CRUD (Create, Read, Update, Delete) access, while guest users can only suggest new titles.",
       "Main application app.js connects to four extended app routers: animes-router.js, tv-shows-router.js, suggestions-router.js, and movies-router.js",
